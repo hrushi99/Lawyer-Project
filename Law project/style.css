@@ -1,0 +1,405 @@
+body {
+	margin: 0;
+    font-family: sans-serif;
+}
+.background{
+	background-image: url(lisbon-1973531_1920.jpg);
+    background-position: center center;
+	height: auto;
+	padding: 200px 0;
+}
+header{
+	background-color: #224;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+    z-index: 1;
+}
+.white{
+    
+}
+.clearfix{
+	clear: both;
+}
+.logo a img {
+	height: 60px;
+	max-width: 150px;
+	padding: 5px 50px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.xyz span{
+    display: none;
+}
+
+ul.tab{
+	float: right;
+	padding-right: 50px;
+}
+#dis{
+    display: none;
+}
+#row{
+    display: block;
+}
+.tab li{
+	display: inline-block;
+	color: white;
+	font-weight: 700;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.tab li a:hover{
+    color: #224;
+    background-color: #fff;
+    padding: 10pxpx;
+}
+.nav{
+	color: white;
+	font-weight: 300;
+	text-decoration: none;
+    padding: 10px;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 50px;
+}
+h3{
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.contact1{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	background-color: #fff;
+	text-align: center;
+	color: #224;
+	padding: 10px;
+	text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+.contact1:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.about{
+	display: block;
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: sans-serif;
+	width: 100%;
+	line-height: 1.5;
+	padding-top: 0px;
+    padding-bottom: 40px;
+	font-weight: 700;
+}
+.about a:hover{
+    color: #224;
+    background-color: transparent;
+
+}
+.button{
+	display: inline-block;
+	margin: 0 auto;
+	background-color: #224;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+	margin-top: 15px;
+}
+.map{
+	background: #000;
+	padding: 50px 0;
+}
+.map iframe{
+	display: block;
+	margin: 0 auto;
+    width: 50%;
+    height: 400px;
+}
+.foot{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 15px;
+	background-color: #224;
+	padding: 1px;
+	color: white;
+}
+.back{
+    background-color: #1b3d6b;
+    padding-top: 120px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.wwd{
+    font-family: sans-serif;
+    padding-top: 75px;
+}
+.page-title {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    line-height: 72px;
+    display: block;
+    text-decoration: underline;
+}
+.page-title span {
+    display: inline-block;
+    padding: 0px 15px;
+    background: #fff;
+    color: #224;
+    position: relative;
+    line-height: 58px;
+}
+.page-title span:after {
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    content: "";
+    display: none;
+}
+.contact {
+    width: 400px;
+    font-size: 20px;
+    padding: 2px;
+}
+.contact:hover{
+    color: white;
+    background-color: transparent;
+}
+.abinfo{
+    padding: 80px 300px;
+    line-height: 35px;
+    font-size: 22px;
+
+}
+.info{
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.practice{
+    padding: 80px 300px;
+    line-height: 35px;
+    font-size: 22px;
+}
+.practice a:hover{
+    color: #224;
+    background-color: #fff;
+}
+.log{
+    text-align: right;
+    padding-right: 41px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.log input{
+    padding: 5px;
+}
+.log img{
+    float: left;
+    padding-top: 20px;
+    padding-left: 40px;
+    height: 500px;
+}
+.subut{
+    width: 70px;
+}
+.subut:hover{
+      color: #fff;
+    background-color: #224;
+}
+.sign{
+    line-height: 63px;
+    padding-right: 40px;
+}
+.sign input {
+    padding: 4px;
+    margin: 10px;
+}
+.backimg{
+    background-image: url(club-2492011_1280.jpg);
+    text-align: right;
+    padding-right: 150px;
+    padding-top: 55px;
+    padding-bottom: 320px;
+    margin-top: 85px;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+.backimg input{
+    padding: 5px;
+    color: #224;
+}
+.backimg a{
+    text-decoration: none;
+    color: #224;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+.backimg a:hover{
+    color: #fff;
+    background-color: #224;
+}
+.nav1{
+    color: white;
+	font-weight: 300;
+	text-decoration: none;
+    padding: 10px;
+    background-color: #224;
+}
+.areas{
+    width: 300px;
+}
+h2{
+    font-family: sans-serif;
+}
+.holder{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.holder .rows{
+    max-width: 1200px;
+    display: flex;
+    margin: 80px 0px;
+}
+.holder .img{
+    width: 600px;
+}
+.holder .img img{
+    width: 100%;
+}
+.holder .text{
+    padding: 0px 50px;
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 35px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@media only screen and (max-width: 1250px){
+    .tab li{
+       padding: 18px 9px;
+	   font-size: 18px;
+    }
+    .logo a img {
+        height:auto;
+        padding: 8px 40px;
+    }
+    .logo{
+	   display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .abinfo{
+    padding: 80px 200px;
+    line-height: 35px;
+    font-size: 20px;
+
+}
+}
+@media only screen and (max-width: 1050px){
+    .tab li{
+       padding: 18px 6px;
+	   font-size: 14px;
+    }
+    .logo{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .abinfo{
+    padding: 80px 100px;
+    line-height: 30px;
+    font-size: 18px;
+
+}
+
+}
+@media only screen and (max-width: 900px){
+    .tab li{
+       padding: 18px 0px;
+	   font-size: 13px;
+    }
+    .logo{
+	    display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+@media only screen and (max-width: 750px){
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+    .tab{
+        display: flex;
+        flex-direction: column;
+    }
+    .tab li a{
+        font-size: 20px
+    }
+    .xyz{
+        position: relative;
+    }
+    .map iframe{
+        width: 100%;
+    }
+    .xyz span{
+        color: white;
+        position: absolute;
+        font-size: 30px;
+        display: block;
+        z-index: 999;
+        top: 20px;
+        right: -40px;
+    }
+    #dis{
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 8px;
+        display: flex;
+        justify-content: center;
+        background-color: #224;
+        left: 0;
+        top: 0px;
+        z-index: 1;
+        padding: 8px 0px;
+    }
+    #dis img{
+        height: 68px;
+        width: auto;
+    }
+    #row{
+        display: none;
+    }
+    .abinfo{
+    padding: 40px 40px;
+    line-height: 30px;
+    font-size: 15px;
+
+}
+
+}

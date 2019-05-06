@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Us</title>
+		<link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script language="javascript">
+            function valid()
+            {
+                if(document.f1.t1.value=="")
+                    {
+                        alert("Please provide First Name!");
+                        document.f1.t1.focus();
+                        return false;
+                    }
+                if(document.f1.t2.value=="")
+                    {
+                        alert("Please provide Last Name!");
+                        document.f1.t2.focus();
+                        return false;
+                    }
+                if(document.f1.t3.value==""||document.f1.t3.value.length!="10")
+                    {
+                        alert("Please provide Valid Mobile number!");
+                        document.f1.t3.focus();
+                        return false;
+                    }
+                if(document.f1.t4.value=="")
+                    {
+                        alert("Please provide Email!");
+                        document.f1.t4.focus();
+                        return false;
+                    }
+                if(document.f1.t5.value=="")
+                    {
+                        alert("Please provide Subject!");
+                        document.f1.t5.focus();
+                        return false;
+                    }
+                return true;
+            }
+        </script>
+	</head>
+	<body>
+		<div class="back">
+   <div id="dis" onclick="myFun()">
+					<img src="logo.png">
+				</div>
+			<header class="row-" id="row">
+			<div class="logo">
+                <div class="xyz">
+				<a href="WPProject.html">
+					<img src="logo.png">
+				</a>
+
+                <span onclick="myFunction()">X</span>
+                    </div>
+			</div>
+					<ul style="list-style-type: none" class="tab">
+						<li><a href="WPProject.html" class="nav">Home</a></li>
+						<li><a href="about.html" class="nav">About Us</a> </li>
+						<li><a href="lawyercom.html" class="nav">Lawyers varity</a></li>
+                        <li><a href="practicearea.html" class="nav">Practice Areas</a></li>
+						<li><a href="contact.html" class="nav">Contact</a></li>
+						<li><a href="login.html" class="nav">Login</a></li>
+					</ul>
+				<div class="clearfix"></div>
+			</header>
+			<form method="post" name="f1" onsubmit="return(valid())">
+                <h2>Submit Your Data Here:</h2><br><br>
+				<input type="text" name="t1" placeholder="First Name" class="contact"><br><br>
+                <input type="text" name="t2" placeholder="Last Name" class="contact"><br><br>
+                <input type="number" name="t3" placeholder="Mobile No." class="contact"><br><br>
+                <input type="email" name="t4" placeholder="E-mail" class="contact"><br><br>
+                <input type="text" name="t5" placeholder="Subject" class="contact"><br><br>
+                <textarea rows="10" cols="41" name="description" placeholder="Case Description" class="contact" style="font-family: arial"></textarea><br><br>
+                <input type="button" value="Submit" class="contact" style="width: 100px" onclick="valid()"><br><br>
+			</form>                                                          
+		</div>
+        <div class="map">
+			<h3>Find Us here:</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1884.230474766253!2d72.9587271241397!3d19.17505922504822!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf7d295a999c47b89!2sMulund+College+of+Commerce!5e0!3m2!1sen!2sin!4v1521712996031" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  
+		</div>
+		<div class="foot">
+			<p>Copyright &Copy; 2012 Anderson & Associates &trade <br>
+			No material should be reproduced without permission</p>
+		</div> 
+	</body>
+</html>
+<script type="text/javascript">
+    function myFunction(){
+        document.getElementById("row").style.display ="none";
+    }
+    function myFun(){
+        document.getElementById("row").style.display ="block";
+    }
+</script>
